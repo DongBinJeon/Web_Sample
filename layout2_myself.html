@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+            font-size: 20px; font-weight: bold; text-align: center; color: #fff;
+        }
+
+        #tt {
+            width: 1200px; height: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        
+
+        #left {
+            width: 300px; height: 1000px; position: absolute;
+        }
+
+        .logo {
+            width: 300px; height: 200px; line-height: 200px;
+            position: absolute; background: skyblue;
+        }
+
+
+        .menu {
+            width: 300px; height: 800px; line-height: 800px;
+            position: absolute; top: 200px; background: darkblue;
+        }
+
+        ul {
+            width: 300px; height: 200px;
+            position: absolute;
+        }
+
+        li {
+            width: 300px; height: 50px;
+        }
+
+
+
+
+        #right {
+            width: 900px; height: 1000px;
+            position: absolute; left: 300px;
+        }
+
+        .top {
+            width: 900px; height: 500px; line-height: 500px;
+            position: absolute;
+            background: palegreen;
+        }
+
+
+
+
+        .mid {
+            width: 900px; height: 400px;
+            position: absolute; top: 500px;
+            background: black;
+        }
+
+        .box1 {
+            width: 300px; height: 400px; line-height: 400px;
+            position: absolute;
+            background: yellowgreen;
+        }
+
+        .box2 {
+            width: 300px; height: 400px; line-height: 400px;
+            position: absolute; left: 300px;
+            background: lime;
+        }
+
+        .box3 {
+            width: 300px; height: 400px; line-height: 400px;
+            position: absolute; right: 0;
+            background: green;
+        }
+
+
+
+        .bottom {
+            width: 900px; height: 100px;
+            position: absolute; bottom: 0;
+            background: black;
+        }
+
+        .blogo {
+            width: 200px; height: 100px; line-height: 100px;
+            position: absolute;
+            background: gray;
+        }
+
+
+
+        .bright {
+            width: 700px; height: 100px;
+            position: absolute; right: 0;
+        }
+
+        .btop {
+            width: 700px; height: 50px; line-height: 50px;
+            position: absolute;
+            background: slategray;
+        }
+
+        .btom {
+            width: 700px; height: 50px; line-height: 50px;
+            position: absolute; bottom: 0;
+            background: silver;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="tt">
+
+        <div id="left">
+            <div class="logo">로고</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Menu1</a>
+                        <ul class="submenu_1">
+                            <li>SubMenu1</li>
+                            <li>SubMenu2</li>
+                            <li>SubMenu3</li>
+                            <li>Submenu4</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Menu2</a>
+                        <ul class="submenu_2">
+                            <li>SubMenu1</li>
+                            <li>SubMenu2</li>
+                            <li>SubMenu3</li>
+                            <li>Submenu4</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Menu3</a>
+                        <ul class="submenu_3">
+                            <li>SubMenu1</li>
+                            <li>SubMenu2</li>
+                            <li>SubMenu3</li>
+                            <li>Submenu4</li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Menu4</a>
+                        <ul class="submenu_4">
+                            <li>SubMenu1</li>
+                            <li>SubMenu2</li>
+                            <li>SubMenu3</li>
+                            <li>Submenu4</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div id="right">
+            <div class="top">이미지 슬라이드</div>
+
+            <div class="mid">
+                <div class="box1">공지사항</div>
+                <div class="box2">갤러리</div>
+                <div class="box3">팝업</div>
+            </div>
+
+            <div class="bottom">
+                <div class="blogo">로고</div>
+
+                <div class="bright">
+                    <div class="btop">하단 메뉴</div>
+                    <div class="btom">Copyright</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
